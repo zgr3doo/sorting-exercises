@@ -1,4 +1,4 @@
-package zgr.excercises.sorting;
+package zgr.exercises.sorting;
 
 /**
  * The partial sorted list initially contains only the first element in the list. With each iteration one element is

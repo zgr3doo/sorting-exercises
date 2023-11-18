@@ -1,4 +1,4 @@
-package zgr.excercises.sorting;
+package zgr.exercises.sorting;
 
 /**
  * If the range has fewer than two elements, return immediately as there is nothing to do. Possibly for other very short

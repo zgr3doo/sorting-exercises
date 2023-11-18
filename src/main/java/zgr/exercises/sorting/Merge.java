@@ -1,4 +1,4 @@
-package zgr.excercises.sorting;
+package zgr.exercises.sorting;
 
 /**
  * Conceptually, a merge sort works as follows:

@@ -1,4 +1,4 @@
-package zgr.excercises.sorting;
+package zgr.exercises.sorting;
 
 /**
  * Starting from the beginning of the list, compare every adjacent pair, swap their position if they are not in the
