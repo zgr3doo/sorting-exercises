@@ -14,7 +14,7 @@ class QuickTest {
         int[] input = {8,4,3,1,4};
         int[] expected = {1,3,4,4,8};
         // when
-        int[] output = Quick.sort(input, 0, input.length);
+        int[] output = Quick.sort(input);
         // then
         Assertions.assertEquals(Arrays.toString(expected), Arrays.toString(output));
     }
@@ -23,10 +23,10 @@ class QuickTest {
     void randomSortTest() {
         // given
         Random rand = new Random();
-        int[] input = rand.ints(1000_000L,1,2000).toArray();
+        int[] input = rand.ints(10_000_000L,1,2000).toArray();
         int[] expected = Arrays.stream(input).sorted().toArray();
         // when
-        int[] output = Quick.sort(input, 0, input.length);
+        int[] output = Quick.sort(input);
         // then
         Assertions.assertEquals(Arrays.toString(expected), Arrays.toString(output));
     }

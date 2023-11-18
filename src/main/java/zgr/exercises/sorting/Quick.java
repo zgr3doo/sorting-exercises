@@ -20,6 +20,10 @@ public class Quick {
 
     private Quick() {}
 
+    public static int[] sort(int[] input) {
+        return sort(input, 0, input.length - 1);
+    }
+
     public static int[] sort(int[] input, int low, int high) {
         // TODO implement logic here
         return input;

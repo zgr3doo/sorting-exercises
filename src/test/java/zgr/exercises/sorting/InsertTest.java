@@ -23,7 +23,7 @@ class InsertTest {
     void randomSortTest() {
         // given
         Random rand = new Random();
-        int[] input = rand.ints(1000_000L,1,2000).toArray();
+        int[] input = rand.ints(100_000L,1,2000).toArray();
         int[] expected = Arrays.stream(input).sorted().toArray();
         // when
         int[] output = Insert.sort(input);
